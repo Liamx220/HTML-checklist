@@ -3,6 +3,7 @@ function create_checklist(){
     var check = document.createElement("INPUT");
     var text = document.createElement("INPUT");
     check.setAttribute("type", "checkbox");
+    check.setAttribute("class", "check")
     check.setAttribute("id", "myCheck");
     node.appendChild(check);
     node.appendChild(text);

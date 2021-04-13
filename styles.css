@@ -1,20 +1,80 @@
+@font-face {
+    font-family: font;
+    src: url(Noir_regular.otf);
+}
+
 .Everything{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-family: sans-serif;
+    font-family: font, sans-serif;
+    color: #EFF6EE;
 
     
 }
 body{
+
+    background-image: linear-gradient(#9197AE, #273043);
     background-color: #cccccc;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 button{
-    font-family: sans-serif; 
+    font-family: font, sans-serif; 
 }
 input{
-    font-family: sans-serif;
+    font-family: font, sans-serif;
+    color: #273043;
+    background-color: #EFF6EE;
+    
+    padding: 4px 4px;
+    border: 2px solid #9197AE;
+    box-sizing: border-box;
+    outline: none;
+    transition: 0.5s;
+    height: 40px;
+    font-size: 20px;
 }
 textarea{
-    font-family: sans-serif;
+    font-family: font, sans-serif;
 }
+html{
+    height: 100%;
+}
+button{
+    color: #EFF6EE;
+    background-color: #273043;
+    border: #273043;
+    font-size: 25px;
+    transition-duration: 0.3s;
+    border-radius: 8px;
+    padding-top: 3px;
+}
+button:hover {
+    background-color: #9197AE;
+    color: white;
+}
+input:focus{
+    border: 2px solid #273043;
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 100px;
+}
+input[type=checkbox] {
+    margin: 0px;
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    content: "\f00c";
+}
+li::marker{
+    font-size: 30px;
+    width: 15px;
+    color: #EFF6EE;
+}
+
