@@ -1,0 +1,20 @@
+.Everything{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+
+    
+}
+body{
+    background-color: #cccccc;
+}
+button{
+    font-family: sans-serif; 
+}
+input{
+    font-family: sans-serif;
+}
+textarea{
+    font-family: sans-serif;
+}
